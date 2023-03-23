@@ -114,6 +114,7 @@ def deep_neural_network(X, y, hidden_layers=(16, 16, 16), learning_rate=0.001, n
 
     return training_history
 
+#### TEST ######
 
 X, y = make_circles(n_samples=100, noise=0.1, factor=0.3, random_state=0)
 X = X.T
